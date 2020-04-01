@@ -39,7 +39,7 @@ module.exports = {
             ong_id,
         });
 
-        return response.json({ id });
+        return response.json({ id, title });
     },
     
     async delete(request, response){
